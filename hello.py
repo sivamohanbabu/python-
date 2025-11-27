@@ -150,17 +150,36 @@
 # c = math.pi
 # print(c)
 
-from collections import Counter
 
-a = input("enter the text")
-b = Counter(a).most_common()
-print(b)
-print("max letter is ",b[0][0])
-print("max value is ",b[0][1])
 # a = ({'c': 5, 'a': 3, 'b': 2})
 # student =[('m', 3), ('a', 3), ('x', 3)]
 # for i in student:
 #     if i[0] =="m":
 #         print("m values are ",i[1])
 #     print(i[0]) print(b)
+# from collections import Counter
+# def maxcount():
+#     text = input("enter the text")
+#     res = Counter(text).most_common()
+#     print("the letter is", res[0][0],"repeated",res[0][1])
+# maxcount()
+# maxcount()
+
+#exceptional handling 
+
+# try:
+
+#     a= int(input("enter value"))
+# except ValueError:
+#     print("value is not match")
+# except  TypeError:
+#     print("type is not match")
+def add(a,b):
+    a = int(input("enter value a"))
+    b = int(input("enter value b"))
+    print(a+b)
+def mul(a,b):
+    a = int(input("enter value a"))
+    b = int(input("enter value b"))
+    print(a*b)
 
